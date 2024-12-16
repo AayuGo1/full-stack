@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+img{
+    margin: 0 ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#first{
+    background-color: brown;
+    padding: 20px;
+    border: solid black;
+
+}
+#second{
+    border-color: blue;
+    border: solid black;
+    border-width: 20px;
+    margin-left: 260px;
+    /* pushing second div by 260px */
+}
+#third{
+    border-color: crimson;
+    border:  10px solid black;
+margin-left: 40px;
+}
+
