@@ -1,0 +1,30 @@
+
+/* using selectors */
+
+h1 , h2{
+    color: blueviolet;
+}
+ 
+/* works for one level down kid */
+
+#box > p{
+color: firebrick;
+}
+
+/* ancestor descendent */
+
+#box .list{
+    color: blue;
+}
+
+/* chain selectors */
+
+li.done{
+    color: seagreen;
+}
+
+/* combining combinations */
+
+ul p.done{
+    font-size: 0.5rem;
+}
