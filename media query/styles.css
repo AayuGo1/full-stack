@@ -8,23 +8,23 @@ p{
     margin-top: 20%;
     
 }
-@media(min-width: 319px) and (max-width: 480px){
+@media(min-width: 319px) and (max-width: 680px){
     body{
-    background-color:lightsalmon;
+    background-color:red;
 }}
-@media(min-width: 481px) and (max-width:1200px){
+@media(min-width: 681px) and (max-width:1200px){
     body{
-        background-color: powderblue;
+        background-color: blue;
     }
 }
 
 @media(min-width: 1201px) and (max-width:1600px){
     body{
-        background-color:limegreen;
+        background-color:lime;
     }
 }
 @media(min-width:1601px){
     body{
-        background-color: seagreen;
+        background-color: green;
     }
 }
